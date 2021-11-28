@@ -26,6 +26,22 @@ input, button{
     background: none;
 }
 
+.profile{
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    align-items: center;
+    background: #0CB2C0;
+    border-color: transparent;
+    color: white;
+    margin-left: 20px;
+    box-shadow: 3px 3px 10px #6c757d;
+}
+
 .cont{
     overflow: hidden;
     position: relative;

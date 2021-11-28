@@ -42,8 +42,8 @@ a{
 }
 
 .coding-container .coding-box{
-    margin-right: 10px;
-    margin-left: 70px;
+    /* margin-right: 10px;
+    margin-left: 90px; */
     margin-bottom: 50px;
 }
 
@@ -54,8 +54,8 @@ a{
     box-shadow: 3px 3px 10px #6c757d;
     align-items: center;
     border-color: transparent;
-    margin-left: 35px;
-    margin-right: 40px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     border-radius: 15px;
 }
 
@@ -74,6 +74,30 @@ a{
     justify-content: space-between;
 }
 
+.coding-container .coding-box .box .coding .button{
+    justify-content: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coding-container .coding-box .box .coding .button button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    align-items: center;
+    background: #0A0849;
+    border-color: transparent;
+    color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.30) ;
+    margin-left: 60px;   
+    margin-top: 25px; 
+}
+
 .coding-container .coding-box .box .coding .text .star{
     margin-left: 25px;
     margin-top: 10px;
@@ -87,7 +111,7 @@ a{
     font-weight: lighter;
     color: rgb(43, 43, 43);
     margin-right: 30px;
-    font-size: 18px;
+    font-size: 100px;
 }
 
 .coding-container .coding-box .box .coding h3{
@@ -113,11 +137,11 @@ a{
     margin-bottom: 10px;
 }
 
-.coding-container .coding-box{
+/* .coding-container .coding-box{
     justify-content: flex;
     display: flex;
     align-items: center;
-}
+} */
 
 hr{
     width: 250px;

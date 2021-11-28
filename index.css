@@ -34,7 +34,7 @@ nav{
     align-items: center;
     height: 60px;
     background-color: #240E63;
-    box-shadow: 2px 2px 12px #6c757d;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30);
     padding: 0px 5%;
     z-index: 1;
     margin-bottom: 20px;
@@ -84,7 +84,7 @@ nav ul li a:hover{
     border-color: transparent;
     color: white;
     margin-left: 20px;
-    box-shadow: 3px 3px 10px #6c757d;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.30);
 }
 
 .signup {
@@ -100,7 +100,7 @@ nav ul li a:hover{
     background: #457FD6;
     border-color: transparent;
     color: white;
-    box-shadow: 3px 3px 10px #6c757d;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.30);
 }
 
 button:active{
@@ -154,7 +154,7 @@ button:active{
     border-color: transparent;
     color: white;
     margin-left: 0px;
-    box-shadow: 2px 2px 5px #6c757d;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.30);
 }   
 
 .catalog{
@@ -169,7 +169,7 @@ button:active{
     background: #457FD6;
     border-color: transparent;
     color: white;
-    box-shadow: 2px 2px 5px #6c757d;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.30);
 }
 
 .searchbox{
@@ -202,7 +202,7 @@ button:active{
     background: #0CB2C0;
     border-color: transparent;
     color: white;
-    box-shadow: 1px 1px 5px #6c757d;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.30);
     margin-left: 7px;    
 }
 
@@ -461,7 +461,7 @@ button:active{
     background: #0A0849;
     border-color: transparent;
     color: white;
-    box-shadow: 2px 2px 8px #494949 ;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.30) ;
     margin-left: 60px;   
     margin-top: 25px; 
 }
@@ -494,7 +494,7 @@ button:active{
     width: 300px;
     height: 380px;
     background-color: white;
-    box-shadow: 3px 3px 10px #6c757d;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.30);
     align-items: center;
     border-color: transparent;
     margin-left: 35px;
@@ -596,7 +596,7 @@ button:active{
     background: #0CB2C0;
     border-color: transparent;
     color: white;
-    box-shadow: 1px 1px 5px #6c757d; 
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.30); 
     margin-top: 15px;
 }
 
@@ -668,7 +668,7 @@ ul{
 }
 
 .footer-col ul li a:hover{
-    color: #0CB2C0;
+    color: #0550CE;
     padding-left: 8px;
     font-weight: 400;
 }

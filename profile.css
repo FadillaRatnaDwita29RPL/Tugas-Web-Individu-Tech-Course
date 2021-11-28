@@ -1,0 +1,229 @@
+body{
+    background:  -webkit-linear-gradient(left, #0A0849, #240E63, #0550CE);
+    margin: 0;
+    padding: 0px;
+    font-family: calibri;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg{
+    width: 100%;
+    height: 200px;
+    background-image: url('bgjoin.png');
+    background-size: cover;
+}
+
+.prof{
+    width: 90%;
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    margin: -7% auto 20px auto;
+}
+
+.image{
+    align-items: center;
+    justify-content: center;
+}
+
+.profil{
+    width: 130px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.prof .flip-card{
+    flex:0 0 calc(33.33% - 30px);
+    margin:0 15px 30px;
+    perspective: 1000px; /*remove this if you dont want the 3d effect*/
+}
+
+.prof .flip-card-inner{
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+	position: relative;
+	transform-style: preserve-3d;
+	transition: all 1s ease;
+    width: 130px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.prof .flip-card-front img{
+	width: 100%;
+}
+.prof .flip-card-front,
+.prof .flip-card-back{
+	backface-visibility: hidden;
+}
+
+.prof .flip-card-back{
+	background: linear-gradient(to right,#0CB2C0, #0550CE);
+	position: absolute;
+	left:0;
+	top:0;
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transform: rotateY(180deg);
+    width: 130px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.prof .flip-card:hover .flip-card-inner{
+   transform: rotateY(180deg);
+}
+
+.flip-card-back:hover img{
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transform: scale(1.1);
+    background: transparent;
+}
+
+.image{
+    margin-left: 0%;
+}
+
+.identity{
+    margin-left: -200px;
+    margin-top: 7%;
+}
+
+.name{
+    font-weight: bold;
+    color: white;
+}
+
+.job{
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.profile{
+    display: flex;
+    position: relative;
+    margin-top: 5%;
+    width: 90%;
+    /* background-color: black; */
+    margin : 5% auto 20px auto;
+}
+
+.profile .quest h3{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 33px;
+}
+
+.form{
+    margin-top: 2%;
+    margin-left: 200px;
+}
+
+input{
+    margin-bottom: 2%;
+    width: 800px;
+    font-size: 16px;
+    border-bottom: 1px solid white;
+    text-align: left;
+    font-family: calibri;
+    display: block;
+    border-top :none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.button{
+    margin-left: 80%;
+}
+
+button:active{
+    transform: scale(1.1);
+}
+
+.edit{
+    margin-top: 20px;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    margin-right: 5px;
+    align-items: center;
+    background: #0CB2C0;
+    border-color: transparent;
+    color: white;
+    margin-left: 20px;
+    box-shadow: 3px 3px 10px #6c757d;
+}
+
+.out{
+    margin-top: 20px;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    font-family: calibri;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    align-items: center;
+    background: #0550CE;
+    border-color: transparent;
+    color: white;
+    box-shadow: 3px 3px 10px #6c757d;
+}
+
+.sosbar i{
+    color: #240E63;
+    font-size: 20px;
+}
+
+.sosbar a:hover{
+    background-color: #0A0849;
+    box-shadow:3px 3px 10px #6c757d ;
+    border-color: transparent;
+}
+
+.sosbar i:hover{
+    color: white;
+}
+
+.sosbar{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.sosbar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+}
